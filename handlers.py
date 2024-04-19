@@ -1,7 +1,7 @@
 from aiogram import F, Router, types
 from aiogram.filters import CommandStart, Command
 from aiogram.types import Message, ContentType
-import app.keyboards as kb
+import keyboards as kb
 router = Router()
 
 t = '''Привет, вот правила игры в Wordle:
