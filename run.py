@@ -1,8 +1,8 @@
 import asyncio
 import logging
 from aiogram import Bot, Dispatcher
-from f1 import TOKEN
-from handlers import router
+from config import TOKEN
+from handlers.handlers import router
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
